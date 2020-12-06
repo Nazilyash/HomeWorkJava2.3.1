@@ -229,7 +229,7 @@ class BonusServiceTest {
         assertEquals(expected, actual);
     }
     @Test
-    void shouldCalculateForRegisteredAndUnderLimitAndAmountIsMinus() {
+    void shouldCalculateForRegisteredAndUnderLimitAndAmountEIsMinus() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:

@@ -6,9 +6,6 @@ public class BonusService {
         if (bonus > limit) {
             bonus = limit;
         }
-        if (bonus < 0) {
-            bonus = 0;
-        }
         return bonus;
     }
 }

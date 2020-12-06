@@ -65,7 +65,7 @@ class BonusServiceTest {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
-        long amount = 2_147_483_647;
+        long amount = 9_223_372_036_854_775_807L;
         boolean registered = true;
         long expected = 500;
 
@@ -79,7 +79,7 @@ class BonusServiceTest {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
-        long amount = 2_147_483_647;
+        long amount = 9_223_372_036_854_775_807L;
         boolean registered = false;
         long expected = 500;
 
@@ -93,7 +93,7 @@ class BonusServiceTest {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
-        long amount = 2_147_483_646;
+        long amount = 9_223_372_036_854_775_806L;
         boolean registered = true;
         long expected = 500;
 
@@ -107,7 +107,7 @@ class BonusServiceTest {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
-        long amount = 2_147_483_646;
+        long amount = 9_223_372_036_854_775_806L;
         boolean registered = false;
         long expected = 500;
 
